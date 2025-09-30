@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>storybook - Storybook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    
+    <style>
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-regular.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-italic.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-bold.woff2') format('woff2');
+      }
+
+      @font-face {
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url('./sb-common-assets/nunito-sans-bold-italic.woff2') format('woff2');
+      }
+    </style>
+
+    <link href="./sb-manager/runtime.js" rel="modulepreload" />
+
+    
+    <link href="./sb-addons/storybook-core-server-presets-0/common-manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/storybook-addons-version-switch-1/manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/docs-2/manager-bundle.js" rel="modulepreload" />
+    
+    <link href="./sb-addons/storybook-3/manager-bundle.js" rel="modulepreload" />
+      <style>
+  @import url('@ui5/webcomponents-base/dist/css/FontFace.css');
+
+  html {
+    forced-color-adjust: none;
+  }
+  body {
+    font-family: var(--sapFontFamily);
+  }
+
+  .docblock-argstable-body label[title] {
+    background: #fff !important;
+  }
+
+  input:checked ~ span:first-of-type:not(:only-of-type),
+  input:not(:checked) ~ span:last-of-type:not(:only-of-type) {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+  }
+  input:checked ~ span:last-of-type,
+  input:not(:checked) ~ span:first-of-type {
+    background-color: transparent !important;
+  }
+
+  /* hide tags from tags-popover */
+  #list-item-tag-experimental,
+  #list-item-tag-deprecated,
+  #list-item-tag-custom,
+  #list-item-tag-cem-module\:Dialog,
+  #list-item-tag-cem-module\:ResponsivePopover,
+  #list-item-tag-excludeFromSidebar,
+  #list-item-tag-extends\:\@ui5\/webcomponents {
+    display: none;
+  }
+
+  /* side-nav badge styles */
+  .sidebar-item > button,
+  .sidebar-item > a {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .side-nav-badge {
+    font-size: var(--sapFontSmallSize);
+  }
+  .side-nav-badge::part(root) {
+    padding-block: 0;
+  }
+</style>
+
+<script data-ui5-config type="application/json">
+  {
+    "theme": "sap_horizon"
+  }
+</script>
+<link rel="icon" href="favicon.ico" />
+ 
+
+    <style>
+      #storybook-root[hidden] {
+        display: none !important;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <div id="root"></div>
+
+    
+    <script>
+      
+        
+          window['FEATURES'] = {
+  "argTypeTargetsV7": true,
+  "legacyDecoratorFileOrder": false,
+  "disallowImplicitActionsInRenderV8": true,
+  "viewport": true,
+  "highlight": true,
+  "controls": true,
+  "interactions": true,
+  "actions": true,
+  "backgrounds": true,
+  "outline": true,
+  "measure": true
+};
+        
+      
+        
+          window['REFS'] = {};
+        
+      
+        
+          window['LOGLEVEL'] = "info";
+        
+      
+        
+          window['DOCS_OPTIONS'] = {
+  "defaultName": "Docs"
+};
+        
+      
+        
+          window['CONFIG_TYPE'] = "PRODUCTION";
+        
+      
+        
+      
+        
+      
+        
+          window['TAGS_OPTIONS'] = {
+  "dev-only": {
+    "excludeFromDocsStories": true
+  },
+  "docs-only": {
+    "excludeFromSidebar": true
+  },
+  "test-only": {
+    "excludeFromSidebar": true,
+    "excludeFromDocsStories": true
+  }
+};
+        
+      
+        
+          window['STORYBOOK_RENDERER'] = "react";
+        
+      
+        
+          window['STORYBOOK_BUILDER'] = "@storybook/builder-vite";
+        
+      
+        
+          window['STORYBOOK_FRAMEWORK'] = "/home/runner/work/ui5-webcomponents-react/ui5-webcomponents-react/node_modules/@storybook/react-vite";
+        
+      
+    </script>
+    
+
+    <script type="module">
+      import './sb-manager/globals-runtime.js';
+
+      
+        import './sb-addons/storybook-core-server-presets-0/common-manager-bundle.js';
+      
+        import './sb-addons/storybook-addons-version-switch-1/manager-bundle.js';
+      
+        import './sb-addons/docs-2/manager-bundle.js';
+      
+        import './sb-addons/storybook-3/manager-bundle.js';
+      
+
+      import './sb-manager/runtime.js';
+    </script>
+  </body>
+</html>
