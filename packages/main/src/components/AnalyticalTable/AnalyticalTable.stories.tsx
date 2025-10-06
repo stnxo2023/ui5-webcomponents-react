@@ -158,6 +158,8 @@ const kitchenSinkArgs: AnalyticalTablePropTypes = {
   visibleRowCountMode: AnalyticalTableVisibleRowCountMode.Interactive,
   visibleRows: 5,
   withRowHighlight: true,
+  // sb actions has a huge impact on performance here.
+  onTableScroll: undefined,
 };
 
 const meta = {
@@ -191,6 +193,8 @@ const meta = {
     highlightField: 'status',
     subRowsKey: 'subRows',
     visibleRows: 5,
+    // sb actions has a huge impact on performance here.
+    onTableScroll: undefined,
   },
   argTypes: {
     data: { control: { disable: true } },
