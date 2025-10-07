@@ -1,0 +1,22 @@
+import{j as o}from"./iframe-CtwEriWb.js";import{useMDXComponents as e}from"./index-D-9u9m_4.js";import{M as p,C as i}from"./blocks-BFYACaFi.js";import"./Tag-Dp8ZKpct.js";import"./index-DaHRprUe.js";import{C as a}from"./ControlsWithNote-v4H3iXhU.js";import{D as h}from"./DocsHeader-B6ug-OW2.js";import{F as x}from"./CommandsAndQueries-CD3VJPSk.js";import{M as l,a as d}from"./LegendConfig-uSNOX3aY.js";import{C as m,D as n,W as j,L as f,a as c,H as C,b as u,c as M}from"./PieChart.stories-aoakV1u0.js";import"./preload-helper-PPVm8Dsz.js";import"./information-D5ukCsPX.js";import"./sys-enter-2-BPp72tdn.js";import"./alert-CQAVluiD.js";import"./index-CeAyP2ez.js";import"./index-DDmWoC0P.js";import"./Link-D_PuN-3O.js";import"./copy-DAqDk282.js";import"./copy-DmD13pno.js";import"./GitHub-Mark-DLxtwLyp.js";import"./TableOfContent-Bk-RGPLp.js";import"./index-C5ngcH8h.js";import"./index-Bt4v4M6X.js";import"./index-zgbQGCMD.js";import"./index-C3uSNLH8.js";import"./index-wzivwl9m.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-Lem94xA1.js";import"./addCustomCSSWithScoping-BBQMnugZ.js";import"./DemoProps-DitWcQC2.js";import"./index-DwnGZB1K.js";import"./staticProps-D-Mf_Q-4.js";import"./ChartContainer-Qz-Clg-u.js";import"./index-Dx48TTVd.js";import"./ThemingParameters-pyhX3s39.js";import"./useOnClickInternal-DR_bydc9.js";import"./Placeholder-DYGvFipY.js";import"./react-content-loader.es-3T-71ZzW.js";function s(r){const t={h2:"h2",h3:"h3",...e(),...r.components};return o.jsxs(o.Fragment,{children:[o.jsx(p,{of:m}),`
+`,o.jsx(h,{of:m,isChart:!0}),`
+`,o.jsx(t.h2,{id:"example",children:"Example"}),`
+`,o.jsx(i,{of:n}),`
+`,o.jsx(t.h2,{id:"properties",children:"Properties"}),`
+`,o.jsx(a,{of:n}),`
+`,o.jsx("br",{}),`
+`,o.jsx("br",{}),`
+`,o.jsx(t.h2,{id:"more-examples",children:"More Examples"}),`
+`,o.jsx(t.h3,{id:"with-custom-color",children:"With Custom Color"}),`
+`,o.jsx(i,{of:j}),`
+`,o.jsx(t.h3,{id:"loading-placeholder",children:"Loading Placeholder"}),`
+`,o.jsx(i,{of:f}),`
+`,o.jsx(t.h3,{id:"with-formatter",children:"With Formatter"}),`
+`,o.jsx(i,{of:c}),`
+`,o.jsx(t.h3,{id:"hide-labels",children:"Hide labels"}),`
+`,o.jsx(i,{of:C}),`
+`,o.jsx(l,{of:u}),`
+`,o.jsx(d,{of:M}),`
+`,o.jsx("br",{}),`
+`,o.jsx("br",{}),`
+`,o.jsx(x,{})]})}function mo(r={}){const{wrapper:t}={...e(),...r.components};return t?o.jsx(t,{...r,children:o.jsx(s,{...r})}):s(r)}export{mo as default};
