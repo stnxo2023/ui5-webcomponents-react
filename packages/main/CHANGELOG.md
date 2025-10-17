@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.2](https://github.com/UI5/webcomponents-react/compare/v2.15.1...v2.15.2) (2025-10-17)
+
+### Bug Fixes
+
+- **AnalyticalTable:** improve `scaleWidthMode` "Grow" and "Smart" ([#7752](https://github.com/UI5/webcomponents-react/issues/7752)) ([08fdff7](https://github.com/UI5/webcomponents-react/commit/08fdff78b638f44d13d3f18ccfe666854da093ad)), closes [#7790](https://github.com/UI5/webcomponents-react/issues/7790)
+
 ## [2.15.1](https://github.com/UI5/webcomponents-react/compare/v2.15.0...v2.15.1) (2025-10-15)
 
 ### Bug Fixes
