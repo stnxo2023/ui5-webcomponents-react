@@ -1,8 +1,0 @@
-import{j as o}from"./iframe-DMHzJZ-j.js";import{useMDXComponents as n}from"./index-C6fVjeP1.js";import{M as e,C as s}from"./blocks-BBNtOPy5.js";import"./Tag-CQITClqv.js";import"./index-C0eFSkjd.js";import{C as a}from"./ControlsWithNote-BUBYP7Bu.js";import{D as x}from"./DocsHeader-7Pk9KcQL.js";import{F as f}from"./CommandsAndQueries-DGQGLEXC.js";import{C as m,D as i}from"./ColorPicker.stories-PPXhLO-s.js";import"./preload-helper-PPVm8Dsz.js";import"./information-41_Ak17O.js";import"./sys-enter-2-YeOg860G.js";import"./alert-Dt7k-zHX.js";import"./index-BlloQ94B.js";import"./index-Cr6zAa1Q.js";import"./Link-DH5vJWVF.js";import"./copy-16ICJGmW.js";import"./copy-x3ZdDA2U.js";import"./GitHub-Mark-BgT8t9P2.js";import"./TableOfContent-DmuZLTjo.js";import"./index-DhIsFRFq.js";import"./index-B1RFmErt.js";import"./index-DgEALGZi.js";import"./index-CqxeRCB-.js";import"./index-CEzdIVxS.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-bWNLwVQr.js";import"./addCustomCSSWithScoping-Br9NkwKR.js";import"./ColorPicker-Dw__OhD8.js";import"./Slider-Duj9dCOX.js";import"./SliderTooltip-DAskbHbt.js";import"./Input-D0sQDQIP.js";import"./ResponsivePopoverCommon.css-BZuN8o2Z.js";import"./ValueStateMessage.css-Cu_y8whz.js";import"./Suggestions.css-Du7gKKRX.js";function p(t){const r={h2:"h2",...n(),...t.components};return o.jsxs(o.Fragment,{children:[o.jsx(e,{of:m}),`
-`,o.jsx(x,{of:m}),`
-`,o.jsx("br",{}),`
-`,o.jsx(r.h2,{id:"example",children:"Example"}),`
-`,o.jsx(s,{of:i}),`
-`,o.jsx(r.h2,{id:"properties",children:"Properties"}),`
-`,o.jsx(a,{of:i}),`
-`,o.jsx(f,{})]})}function Q(t={}){const{wrapper:r}={...n(),...t.components};return r?o.jsx(r,{...t,children:o.jsx(p,{...t})}):p(t)}export{Q as default};
