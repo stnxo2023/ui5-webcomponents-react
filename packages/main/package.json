@@ -736,6 +736,10 @@
       "types": "./dist/webComponents/UserMenuItemGroup/index.d.ts",
       "default": "./dist/webComponents/UserMenuItemGroup/index.js"
     },
+    "./UserSettingsAccountView": {
+      "types": "./dist/webComponents/UserSettingsAccountView/index.d.ts",
+      "default": "./dist/webComponents/UserSettingsAccountView/index.js"
+    },
     "./UserSettingsDialog": {
       "types": "./dist/webComponents/UserSettingsDialog/index.d.ts",
       "default": "./dist/webComponents/UserSettingsDialog/index.js"
@@ -793,10 +797,10 @@
   "peerDependencies": {
     "@types/react": "*",
     "@types/react-dom": "*",
-    "@ui5/webcomponents": "~2.16.1",
-    "@ui5/webcomponents-base": "~2.16.1",
-    "@ui5/webcomponents-fiori": "~2.16.1",
-    "@ui5/webcomponents-icons": "~2.16.1",
+    "@ui5/webcomponents": "~2.17.0",
+    "@ui5/webcomponents-base": "~2.17.0",
+    "@ui5/webcomponents-fiori": "~2.17.0",
+    "@ui5/webcomponents-icons": "~2.17.0",
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
   },
