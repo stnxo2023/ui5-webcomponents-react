@@ -1,0 +1,12 @@
+import{j as o}from"./iframe-Qn10Vv46.js";import{useMDXComponents as e}from"./index-Dn_QNZXe.js";import{M as s,C as i}from"./blocks-CqvMe-zP.js";import"./Tag-D88IrP9Y.js";import"./index-CPne16Vl.js";import{C as a}from"./ControlsWithNote-D0dP6j7A.js";import{D as d}from"./DocsHeader-BIk1l2Px.js";import{F as h}from"./CommandsAndQueries-BS5w0Fww.js";import{C as m,D as n,L as x,W as c,a as f}from"./ColumnChartWithTrend.stories-FjTIjdlj.js";import{M as l,a as j}from"./LegendConfig-BoOxTBfm.js";import"./preload-helper-PPVm8Dsz.js";import"./information-BED9_Z-O.js";import"./sys-enter-2-DmPWvQNd.js";import"./alert-CtILWS1T.js";import"./index-BCXe2PbY.js";import"./index-u07ulNkL.js";import"./Link-B9oRKMRP.js";import"./copy-Bgq1CUKM.js";import"./copy-CASyM-HB.js";import"./GitHub-Mark-BOUIgWZ_.js";import"./TableOfContent-BRG6Q4qe.js";import"./index-1Dq2e1Fv.js";import"./index-D9ZF8-N2.js";import"./index-Btsu4EzQ.js";import"./index-D7W_CU3P.js";import"./index-Qf4zPxvx.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-DyNR1Lsa.js";import"./addCustomCSSWithScoping-BMEnUHPm.js";import"./DemoProps-BbvaCjIw.js";import"./ThemingParameters-pyhX3s39.js";import"./useLongestYAxisLabel-CDnQYRc9.js";import"./staticProps-lQ_JIszm.js";import"./ChartContainer-iUkIgy6a.js";import"./index-BmRC0J2V.js";import"./useTooltipFormatter-CpByX-4F.js";import"./index-BHX2mp3z.js";import"./YAxisTicks-B0VUDlR9.js";import"./debounce-D7W5PopO.js";import"./ChartDataLabel-BbP2sEaC.js";import"./useOnClickInternal-DOeYlJza.js";import"./react-content-loader.es-DEMzcCcB.js";import"./ComposedChart-C6iHG3RW.js";import"./Line-PSEpvuMo.js";import"./Scatter-BTnwmp_S.js";import"./useIsRTL-0Grxk9f4.js";function p(r){const t={b:"b",code:"code",h2:"h2",h3:"h3",...e(),...r.components};return o.jsxs(o.Fragment,{children:[o.jsx(s,{of:m}),`
+`,o.jsx(d,{of:m,isChart:!0}),`
+`,o.jsx(t.h2,{id:"example",children:"Example"}),`
+`,o.jsx(i,{of:n}),`
+`,o.jsx(a,{of:n}),`
+`,o.jsx(t.h3,{id:"loading-placeholder",children:"Loading Placeholder"}),`
+`,o.jsx(i,{of:x}),`
+`,o.jsx(l,{of:c,additionalDescription:o.jsxs(o.Fragment,{children:[o.jsx(t.b,{children:"Note: "}),"The ",o.jsx(t.code,{children:"tooltipConfig"})," is used for both LineChart and ColumnChart."]})}),`
+`,o.jsx(j,{of:f}),`
+`,o.jsx("br",{}),`
+`,o.jsx("br",{}),`
+`,o.jsx(h,{})]})}function ao(r={}){const{wrapper:t}={...e(),...r.components};return t?o.jsx(t,{...r,children:o.jsx(p,{...r})}):p(r)}export{ao as default};
