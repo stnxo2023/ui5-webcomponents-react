@@ -1,0 +1,18 @@
+import{j as o,B as c}from"./iframe-CeMquKfU.js";import{useMDXComponents as f}from"./index-BbFo7jBM.js";import{A as m}from"./ArgTypesWithNote-DYd99A6P.js";import{C as j}from"./ControlsWithNote-BmMLVWWf.js";import{D as u}from"./DocsHeader-CDkUnTUT.js";import{F as d}from"./CommandsAndQueries-DG6G8TEI.js";import{S as h}from"./SubcomponentsSection-BVy4lpQe.js";import{M as g,C as l,a as C,D as e}from"./blocks-Db1iDIvu.js";import{S as n,a as s}from"./index-DSyZ5QpB.js";import{T as p}from"./index-CDcB48ky.js";import{C as i,D as a}from"./MultiInput.stories-DqFjYNN8.js";import"./preload-helper-PPVm8Dsz.js";import"./index-BWGqmYD4.js";import"./information-BF8hjIJ6.js";import"./sys-enter-2-CBCKgEbS.js";import"./alert-DPPxzZqA.js";import"./Tag-DBOPR6ka.js";import"./index-CQMy8EdC.js";import"./index-WnbBQODb.js";import"./Link-B4KwrrH9.js";import"./copy-DoTCoMit.js";import"./copy-DuOXgjDa.js";import"./GitHub-Mark-D5azJnro.js";import"./TableOfContent-DfQZ96tK.js";import"./index-DYb2g8Yq.js";import"./index-srI8srsL.js";import"./index-Brk-KPPC.js";import"./index-jfPm289V.js";import"./index-DMujUK6u.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-RK7-B4yx.js";import"./addCustomCSSWithScoping-06k5HVP6.js";import"./SuggestionItem-CL3ZaIy3.js";import"./ListItemBaseTemplate-1_D2ATm3.js";import"./SuggestionItemGroup-CPHfDZUg.js";import"./ListBoxItemGroupTemplate-DCHeqAW1.js";import"./Token-CruD5fzF.js";import"./ScrollEnablement-C-b-W7id.js";import"./animate-JylhYHXj.js";import"./ListItemStandard-D7spGUwG.js";import"./ResponsivePopoverCommon.css-BClm2dDh.js";import"./Suggestions.css-BWIb4a3h.js";import"./Input-DQRA-VuS.js";import"./ValueStateMessage.css-CKCH07QR.js";import"./index-CZizrjSM.js";import"./ToggleButton-_yDrgV6p.js";import"./value-help-C0bnwPH_.js";function x(r){const t={h2:"h2",...f(),...r.components};return o.jsxs(o.Fragment,{children:[o.jsx(g,{of:i}),`
+`,o.jsx(u,{of:i,since:"0.11.0"}),`
+`,o.jsx("br",{}),`
+`,o.jsx(t.h2,{id:"example",children:"Example"}),`
+`,o.jsx(l,{of:a}),`
+`,o.jsx(t.h2,{id:"properties",children:"Properties"}),`
+`,o.jsx(j,{of:a}),`
+`,o.jsx(C,{children:h}),`
+`,o.jsx(t.h2,{id:"token",children:"Token"}),`
+`,o.jsx(e,{of:p}),`
+`,o.jsx(m,{metaOf:i,of:p}),`
+`,o.jsx(t.h2,{id:"suggestionitem",children:"SuggestionItem"}),`
+`,o.jsx(e,{of:n}),`
+`,o.jsx(m,{metaOf:i,hideHTMLPropsNote:!0,exclude:c,of:n}),`
+`,o.jsx(t.h2,{id:"suggestionitemgroup",children:"SuggestionItemGroup"}),`
+`,o.jsx(e,{of:s}),`
+`,o.jsx(m,{metaOf:i,of:s}),`
+`,o.jsx(d,{})]})}function jo(r={}){const{wrapper:t}={...f(),...r.components};return t?o.jsx(t,{...r,children:o.jsx(x,{...r})}):x(r)}export{jo as default};
