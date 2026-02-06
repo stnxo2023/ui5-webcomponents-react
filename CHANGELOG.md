@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/UI5/webcomponents-react/compare/v2.18.1...v2.19.0) (2026-02-06)
+
+### Bug Fixes
+
+- **AnalyticalCardHeader:** add tooltip for numeric content ([#8104](https://github.com/UI5/webcomponents-react/issues/8104)) ([82ad75f](https://github.com/UI5/webcomponents-react/commit/82ad75f5aa6a5eda6e522759ead0d026f8c07312)), closes [#8103](https://github.com/UI5/webcomponents-react/issues/8103)
+- **AnalyticalTable:** deactivate horizontal virtualization for "Smart" and "Grow" mode ([#8157](https://github.com/UI5/webcomponents-react/issues/8157)) ([c0b1245](https://github.com/UI5/webcomponents-react/commit/c0b12455c8b2c5c117aff670003390db1ce189e0))
+- **deps:** update dependency react-content-loader to v7.1.2 ([#8133](https://github.com/UI5/webcomponents-react/issues/8133)) ([92825f7](https://github.com/UI5/webcomponents-react/commit/92825f72643c45dd4998a3399228bd964ec7d951))
+- **deps:** update react monorepo to v19.2.4 (patch) ([#8142](https://github.com/UI5/webcomponents-react/issues/8142)) ([ed29aea](https://github.com/UI5/webcomponents-react/commit/ed29aea2f3ada34e2f1dc1c7a11ed02297ebcb69))
+- **ObjectPage:** disable `titleArea` interaction if no `headerArea` ([#8121](https://github.com/UI5/webcomponents-react/issues/8121)) ([ee7c19f](https://github.com/UI5/webcomponents-react/commit/ee7c19f9d1b57475fd256d0a180ba2b1cfeccd0f))
+
+### Features
+
+- improve React Compiler compatibility ([#8185](https://github.com/UI5/webcomponents-react/issues/8185)) ([b1ca145](https://github.com/UI5/webcomponents-react/commit/b1ca145581c8de48345fffd380b3c629e914cb22))
+- **Line- & BulletChart:** allow showing data labels for large datasets ([#8150](https://github.com/UI5/webcomponents-react/issues/8150)) ([39a056e](https://github.com/UI5/webcomponents-react/commit/39a056e1625908934bdab0434c5538c65a4bc06d)), closes [#8148](https://github.com/UI5/webcomponents-react/issues/8148)
+- **Modals:** support auto-closing popovers sharing the same opener ([#8149](https://github.com/UI5/webcomponents-react/issues/8149)) ([e647d41](https://github.com/UI5/webcomponents-react/commit/e647d41e440cf4a5f151501017ab4120a1f2e246)), closes [#8147](https://github.com/UI5/webcomponents-react/issues/8147)
+- **ObjectPage:** hide tabbar when only one section is available ([#8116](https://github.com/UI5/webcomponents-react/issues/8116)) ([afa9d76](https://github.com/UI5/webcomponents-react/commit/afa9d76f4b9ab325732f53c0790073476d2e2e31)), closes [#8087](https://github.com/UI5/webcomponents-react/issues/8087) [#8106](https://github.com/UI5/webcomponents-react/issues/8106)
+- **ObjectPage:** make section headers sticky ([#8087](https://github.com/UI5/webcomponents-react/issues/8087)) ([3d0250e](https://github.com/UI5/webcomponents-react/commit/3d0250ec8ffc2b1af40be1c6ae5557b671a339e4)), closes [#7780](https://github.com/UI5/webcomponents-react/issues/7780)
+- update to UI5 Web Components v2.19.0 ([#8180](https://github.com/UI5/webcomponents-react/issues/8180)) ([7634a40](https://github.com/UI5/webcomponents-react/commit/7634a4079907314c1e9bb408b4fed1d95e709410))
+
 ## [2.18.1](https://github.com/UI5/webcomponents-react/compare/v2.18.0...v2.18.1) (2026-01-13)
 
 ### Bug Fixes

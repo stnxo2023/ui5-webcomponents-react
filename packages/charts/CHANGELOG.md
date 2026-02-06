@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/UI5/webcomponents-react/compare/v2.18.1...v2.19.0) (2026-02-06)
+
+### Bug Fixes
+
+- **deps:** update dependency react-content-loader to v7.1.2 ([#8133](https://github.com/UI5/webcomponents-react/issues/8133)) ([92825f7](https://github.com/UI5/webcomponents-react/commit/92825f72643c45dd4998a3399228bd964ec7d951))
+
+### Features
+
+- improve React Compiler compatibility ([#8185](https://github.com/UI5/webcomponents-react/issues/8185)) ([b1ca145](https://github.com/UI5/webcomponents-react/commit/b1ca145581c8de48345fffd380b3c629e914cb22))
+- **Line- & BulletChart:** allow showing data labels for large datasets ([#8150](https://github.com/UI5/webcomponents-react/issues/8150)) ([39a056e](https://github.com/UI5/webcomponents-react/commit/39a056e1625908934bdab0434c5538c65a4bc06d)), closes [#8148](https://github.com/UI5/webcomponents-react/issues/8148)
+- update to UI5 Web Components v2.19.0 ([#8180](https://github.com/UI5/webcomponents-react/issues/8180)) ([7634a40](https://github.com/UI5/webcomponents-react/commit/7634a4079907314c1e9bb408b4fed1d95e709410))
+
 ## [2.18.1](https://github.com/UI5/webcomponents-react/compare/v2.18.0...v2.18.1) (2026-01-13)
 
 **Note:** Version bump only for package @ui5/webcomponents-react-charts

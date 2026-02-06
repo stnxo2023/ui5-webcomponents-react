@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/UI5/webcomponents-react/compare/v2.18.1...v2.19.0) (2026-02-06)
+
+### Features
+
+- improve React Compiler compatibility ([#8185](https://github.com/UI5/webcomponents-react/issues/8185)) ([b1ca145](https://github.com/UI5/webcomponents-react/commit/b1ca145581c8de48345fffd380b3c629e914cb22))
+- update to UI5 Web Components v2.19.0 ([#8180](https://github.com/UI5/webcomponents-react/issues/8180)) ([7634a40](https://github.com/UI5/webcomponents-react/commit/7634a4079907314c1e9bb408b4fed1d95e709410))
+
 ## [2.18.1](https://github.com/UI5/webcomponents-react/compare/v2.18.0...v2.18.1) (2026-01-13)
 
 **Note:** Version bump only for package @ui5/webcomponents-react-base
