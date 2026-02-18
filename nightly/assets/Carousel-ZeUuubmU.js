@@ -1,0 +1,8 @@
+import{j as o}from"./iframe-Dk0n26L0.js";import{useMDXComponents as n}from"./index-GonNK-F8.js";import{M as e,C as s}from"./blocks-Do665btL.js";import"./Tag-DHDcW-fI.js";import"./index-zII-B7tZ.js";import{C as a}from"./ControlsWithNote-DUok2UAj.js";import{D as x}from"./DocsHeader-CgSCNCH-.js";import{F as f}from"./CommandsAndQueries-C5xq4Qip.js";import{C as m,D as i}from"./Carousel.stories-BGbihXRD.js";import"./preload-helper-PPVm8Dsz.js";import"./information-CyaCviRw.js";import"./sys-enter-2-BeHXFnMA.js";import"./alert-CjBv8gy0.js";import"./index-DVvxIcdz.js";import"./index-Dww5FXQ1.js";import"./Link-CiqsvlwF.js";import"./copy-DjrSG4W0.js";import"./copy-DI2yzFNj.js";import"./GitHub-Mark-DZxCCe7V.js";import"./TableOfContent-DmHVZj_P.js";import"./index-BOuRbWlk.js";import"./index-DZcV0iyk.js";import"./index-BYI0Uf8A.js";import"./index-A7L-MktQ.js";import"./index-DuchmHxs.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-WCv2CDBA.js";import"./addCustomCSSWithScoping-C7tuYiM4.js";import"./Carousel-B69V59u1.js";import"./ScrollEnablement-BDIo3BIe.js";import"./animate-JylhYHXj.js";import"./AnimationMode-DajUWLJ8.js";import"./slim-arrow-left-Bh-nsn0x.js";import"./index-kiEGzXu1.js";function p(t){const r={h2:"h2",...n(),...t.components};return o.jsxs(o.Fragment,{children:[o.jsx(e,{of:m}),`
+`,o.jsx(x,{of:m,since:"0.9.0"}),`
+`,o.jsx("br",{}),`
+`,o.jsx(r.h2,{id:"example",children:"Example"}),`
+`,o.jsx(s,{of:i}),`
+`,o.jsx(r.h2,{id:"properties",children:"Properties"}),`
+`,o.jsx(a,{of:i}),`
+`,o.jsx(f,{})]})}function O(t={}){const{wrapper:r}={...n(),...t.components};return r?o.jsx(r,{...t,children:o.jsx(p,{...t})}):p(t)}export{O as default};
