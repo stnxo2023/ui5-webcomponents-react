@@ -1,0 +1,11 @@
+import{j as o}from"./iframe-BCeV4J61.js";import{useMDXComponents as s}from"./index-DQSXUrY-.js";import{M as p,C as i}from"./blocks-BaqdfAa9.js";import"./Tag-Bzl_4yyv.js";import"./index-DSCCKcvn.js";import{C as a}from"./ControlsWithNote-Bbo9Mum3.js";import{D as l}from"./DocsHeader-BEqeoGp7.js";import{F as x}from"./CommandsAndQueries-BMt6Du51.js";import{C as m,D as e,A as c}from"./Tag.stories-DjEufv9g.js";import"./preload-helper-PPVm8Dsz.js";import"./information-DsxmrLjJ.js";import"./sys-enter-2-DTJ11PLs.js";import"./alert-BPfUUxXP.js";import"./index-MH0uXub1.js";import"./index-CTun36xm.js";import"./Link-C83i_H7y.js";import"./copy-BUUqBpbk.js";import"./copy-BLLS_Koh.js";import"./GitHub-Mark-DAbMFpB8.js";import"./TableOfContent-BjaZyA9z.js";import"./index-D6AOhQcP.js";import"./index-BqI0DRaf.js";import"./index-BaMmnI_0.js";import"./index-Dd7n1xMP.js";import"./index-C_9CrSf5.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-xuzVGY3l.js";import"./addCustomCSSWithScoping-Bz6BhAjV.js";import"./employee-BeBSCCUJ.js";function n(t){const r={h1:"h1",h2:"h2",...s(),...t.components};return o.jsxs(o.Fragment,{children:[o.jsx(p,{of:m}),`
+`,o.jsx(l,{of:m,since:"2.0.0"}),`
+`,o.jsx("br",{}),`
+`,o.jsx(r.h2,{id:"example",children:"Example"}),`
+`,o.jsx(i,{of:e}),`
+`,o.jsx(r.h2,{id:"properties",children:"Properties"}),`
+`,o.jsx(a,{of:e}),`
+`,o.jsx(r.h1,{id:"more-examples",children:"More Examples"}),`
+`,o.jsx(r.h2,{id:"all-available-tag-colors",children:"All available Tag colors"}),`
+`,o.jsx(i,{of:c}),`
+`,o.jsx(x,{})]})}function B(t={}){const{wrapper:r}={...s(),...t.components};return r?o.jsx(r,{...t,children:o.jsx(n,{...t})}):n(t)}export{B as default};
