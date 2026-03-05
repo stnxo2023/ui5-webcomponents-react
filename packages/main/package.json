@@ -688,6 +688,10 @@
       "types": "./dist/webComponents/ToolbarButton/index.d.ts",
       "default": "./dist/webComponents/ToolbarButton/index.js"
     },
+    "./ToolbarItem": {
+      "types": "./dist/webComponents/ToolbarItem/index.d.ts",
+      "default": "./dist/webComponents/ToolbarItem/index.js"
+    },
     "./ToolbarSelect": {
       "types": "./dist/webComponents/ToolbarSelect/index.d.ts",
       "default": "./dist/webComponents/ToolbarSelect/index.js"
@@ -813,10 +817,10 @@
   "peerDependencies": {
     "@types/react": "*",
     "@types/react-dom": "*",
-    "@ui5/webcomponents": "~2.19.0",
-    "@ui5/webcomponents-base": "~2.19.0",
-    "@ui5/webcomponents-fiori": "~2.19.0",
-    "@ui5/webcomponents-icons": "~2.19.0",
+    "@ui5/webcomponents": "~2.20.0",
+    "@ui5/webcomponents-base": "~2.20.0",
+    "@ui5/webcomponents-fiori": "~2.20.0",
+    "@ui5/webcomponents-icons": "~2.20.0",
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
   },
