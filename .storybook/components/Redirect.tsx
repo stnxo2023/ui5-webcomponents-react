@@ -13,7 +13,7 @@ interface RedirectProps {
   delay?: number;
 }
 
-export const Redirect = ({ from, to, sectionName, delay = 1000000 }: RedirectProps) => {
+export const Redirect = ({ from, to, sectionName, delay = 5000 }: RedirectProps) => {
   const [countdown, setCountdown] = useState(Math.ceil(delay / 1000));
 
   const target = typeof window !== 'undefined' ? window.top || window.parent || window : null;
