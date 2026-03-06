@@ -9,6 +9,50 @@ on:
         required: false
 
 jobs:
+  playwright:
+    name: Playwright
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        react: ['18', '19']
+      fail-fast: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+
+      - name: Install
+        run: yarn install --immutable
+
+      - name: Install React 18
+        if: ${{ matrix.react == '18' }}
+        run: |
+          yarn add "@types/react@18" "@types/react-dom@18" --dev
+          yarn add react@18 react-dom@18
+
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
+        with:
+          name: build-${{ matrix.react }}
+          path: packages
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright tests
+        run: yarn test:pw:ci
+
+      - uses: coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b # v2.3.6
+        if: ${{ inputs.reportCoverage && matrix.react == '19' }}
+        with:
+          file: temp/playwright-coverage/lcov.info
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
+          flag-name: playwright
+
   cypress:
     name: Cypress
     runs-on: ubuntu-latest
@@ -65,7 +109,7 @@ jobs:
 
   coveralls:
     if: ${{ always() && inputs.reportCoverage }}
-    needs: ['cypress']
+    needs: ['cypress', 'playwright']
     name: 'Combine Coverage'
     runs-on: ubuntu-latest
     steps:
@@ -74,4 +118,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           parallel-finished: true
-          carryforward: 'base,charts,cypress-commands,main/src/components,main/src/internal'
+          carryforward: 'base,charts,cypress-commands,main/src/components,main/src/internal,playwright'
