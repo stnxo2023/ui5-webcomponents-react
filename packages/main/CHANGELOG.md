@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/UI5/webcomponents-react/compare/v2.19.0...v2.20.0) (2026-03-06)
+
+### Bug Fixes
+
+- **deps:** update dependency @tanstack/react-virtual to v3.13.19 ([#8248](https://github.com/UI5/webcomponents-react/issues/8248)) ([928efb7](https://github.com/UI5/webcomponents-react/commit/928efb74469e6bc0f6bb138630b4921ceb071a7a))
+
+### Features
+
+- **AnalyticalTable:** add `allVisibleRowsSelected` to `onRowSelect` & improve select behavior ([#8224](https://github.com/UI5/webcomponents-react/issues/8224)) ([88f50fa](https://github.com/UI5/webcomponents-react/commit/88f50fac94eddb40910241df145d13df4fde122e))
+- update to UI5 Web Components 2.20.0 ([#8285](https://github.com/UI5/webcomponents-react/issues/8285)) ([e9fd5d9](https://github.com/UI5/webcomponents-react/commit/e9fd5d96f5ccacbea28d69005136b275ab62891f)), closes [#8196](https://github.com/UI5/webcomponents-react/issues/8196)
+
 # [2.19.0](https://github.com/UI5/webcomponents-react/compare/v2.18.1...v2.19.0) (2026-02-06)
 
 ### Bug Fixes
