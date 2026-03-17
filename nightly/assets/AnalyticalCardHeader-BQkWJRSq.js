@@ -1,0 +1,13 @@
+import{j as o}from"./iframe-30LZfzOw.js";import{useMDXComponents as e}from"./index-9hK3vCGp.js";import{A as s}from"./ArgTypesWithNote-BmhzoFhd.js";import{C as a}from"./ControlsWithNote-CXKPC-Oz.js";import{D as c}from"./DocsHeader-WWsNQMtH.js";import{F as x}from"./Footer-BNR5gUPY.js";import"./CommandsAndQueries-B3tX98p8.js";import"./PageNotFound-yG6M5MId.js";import{S as d}from"./SubcomponentsSection-BVy4lpQe.js";import{M as f,C as j,a as u,D as h}from"./blocks-C0vZ6D8t.js";import"./person-placeholder-C-3a5nG6.js";import"./Link-CPAvZ0M5.js";import{N as m}from"./index-CnmGKpFR.js";import{C as i,D as p}from"./AnalyticalCardHeader.stories-BAOK6IJm.js";import"./preload-helper-PPVm8Dsz.js";import"./index-CjMm9yFV.js";import"./information-BQPccwsM.js";import"./sys-enter-2-CbSQlHDF.js";import"./alert-BwFRRuyW.js";import"./Tag-Dtxkyswp.js";import"./index-CZwEe_4d.js";import"./index-CqMGZXJd.js";import"./copy-B0nYe01_.js";import"./copy-BDfV85Pd.js";import"./GitHub-Mark-zOAT4iF3.js";import"./TableOfContent-BvUVIFBa.js";import"./index-CFfbQ4H0.js";import"./index-DBMP_Ccw.js";import"./index-BqAk99uF.js";import"./index-orHhnsuM.js";import"./index-DNQEiveD.js";import"./AvatarSize-BtKTMFJ5.js";import"./employee-Dl3uWGQL.js";import"./addCustomCSSWithScoping-DtBGS5Q4.js";import"./Illustrations-BGO-1oHt.js";import"./i18n-defaults-CFWtSmu6.js";import"./utils-IkNb-DUU.js";import"./index-CJPLrV9g.js";import"./ThemingParameters-BvhwmbYD.js";import"./YAxisTicks-CSTp4F7b.js";import"./ChartContainer-B1xFiSU5.js";import"./index-Dn9Dy3ZO.js";import"./debounce-D7W5PopO.js";import"./useTooltipFormatter-D_9W8uWd.js";import"./staticProps-BcjhFzu-.js";import"./ChartDataLabel-L03hItFI.js";import"./useLongestYAxisLabel-DYgYPIdp.js";import"./react-content-loader.es-DIVflmDY.js";import"./Line-B0SvVur_.js";import"./useIsRTL-CVz-G4WN.js";function n(r){const t={h2:"h2",...e(),...r.components};return o.jsxs(o.Fragment,{children:[o.jsx(f,{of:i}),`
+`,o.jsx(c,{of:i,subComponents:["NumericSideIndicator"]}),`
+`,o.jsx(t.h2,{id:"example",children:"Example"}),`
+`,o.jsx(j,{of:p}),`
+`,o.jsx(t.h2,{id:"properties",children:"Properties"}),`
+`,o.jsx(a,{of:p}),`
+`,o.jsx("br",{}),`
+`,o.jsx("br",{}),`
+`,o.jsx(u,{children:d}),`
+`,o.jsx(t.h2,{id:"numericsideindicator",children:"NumericSideIndicator"}),`
+`,o.jsx(h,{of:m}),`
+`,o.jsx(s,{metaOf:i,of:m}),`
+`,o.jsx(x,{})]})}function jo(r={}){const{wrapper:t}={...e(),...r.components};return t?o.jsx(t,{...r,children:o.jsx(n,{...r})}):n(r)}export{jo as default};
