@@ -3,6 +3,8 @@ import { Canvas, Meta } from '@storybook/addon-docs/blocks';
 import TooltipStory from '../../resources/TooltipConfig.mdx';
 import LegendStory from '../../resources/LegendConfig.mdx';
 import NormalizedStackedChartStory from '../../resources/NormalizedStackedChart.mdx';
+import StackAggregateTotalsStory from '../../resources/StackAggregateTotals.mdx';
+import CustomTooltipTotalStory from '../../resources/CustomTooltipTotal.mdx';
 import * as ComponentStories from './ColumnChart.stories';
 
 <Meta of={ComponentStories} />
@@ -62,9 +64,19 @@ You can set a reference line to any value by using the `referenceLine` `chartCon
 
 <Canvas of={ComponentStories.WithReferenceLine} />
 
-## With Highlighted Measures
+### With Highlighted Measures
 
 <Canvas of={ComponentStories.WithHighlightedMeasure} />
+
+<StackAggregateTotalsStory
+  of={ComponentStories.WithStackAggregateTotals}
+  description={<>You can display a total label at the top of each stacked column group by setting <code>chartConfig.showStackAggregateTotals</code> to <code>true</code>. The tooltip includes the total automatically when only a single column per dimension is present.</>}
+/>
+
+<CustomTooltipTotalStory
+  of={ComponentStories.WithCustomTooltipTotal}
+  description={<>When multiple columns per dimension are present (e.g. stacked + standalone), the built-in tooltip total is not available. You can provide a custom tooltip via the <code>tooltipConfig.content</code> prop to display a total for specific measures.</>}
+/>
 
 <TooltipStory of={ComponentStories.WithCustomTooltipConfig} />;
 

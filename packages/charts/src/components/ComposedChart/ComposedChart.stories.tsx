@@ -1,5 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import { bigDataSet, complexDataSet, legendConfig, simpleDataSet, tooltipConfig } from '../../resources/DemoProps.js';
+import {
+  bigDataSet,
+  complexDataSet,
+  CustomTooltipContent,
+  legendConfig,
+  simpleDataSet,
+  tooltipConfig,
+} from '../../resources/DemoProps.js';
 import { ComposedChart } from './index.js';
 
 const meta = {
@@ -202,6 +209,67 @@ export const WithFormattedSecondaryAxis: Story = {
 export const LoadingPlaceholder: Story = {
   args: {
     dataset: [],
+  },
+};
+
+export const WithStackAggregateTotals: Story = {
+  args: {
+    dataset: complexDataSet.slice(0, 7),
+    dimensions: [{ accessor: 'name' }],
+    measures: [
+      {
+        accessor: 'users',
+        stackId: 'A',
+        label: 'Users',
+        type: 'bar',
+      },
+      {
+        accessor: 'sessions',
+        stackId: 'A',
+        label: 'Active Sessions',
+        type: 'bar',
+      },
+      {
+        accessor: 'volume',
+        label: 'Vol.',
+        type: 'line',
+      },
+    ],
+    chartConfig: {
+      showStackAggregateTotals: true,
+    },
+  },
+};
+
+export const WithCustomTooltipTotal: Story = {
+  args: {
+    dataset: complexDataSet.slice(0, 7),
+    dimensions: [{ accessor: 'name' }],
+    measures: [
+      {
+        accessor: 'users',
+        stackId: 'A',
+        label: 'Users',
+        type: 'bar',
+      },
+      {
+        accessor: 'sessions',
+        stackId: 'A',
+        label: 'Active Sessions',
+        type: 'bar',
+      },
+      {
+        accessor: 'volume',
+        label: 'Vol.',
+        type: 'line',
+      },
+    ],
+    chartConfig: {
+      showStackAggregateTotals: true,
+    },
+    tooltipConfig: {
+      content: <CustomTooltipContent />,
+    },
   },
 };
 

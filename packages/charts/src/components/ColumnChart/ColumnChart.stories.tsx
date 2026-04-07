@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import {
   complexDataSet,
+  CustomTooltipContent,
   legendConfig,
   secondaryDimensionDataSet,
   simpleDataSet,
@@ -153,6 +154,57 @@ export const WithHighlightedMeasure: Story = {
         },
       },
     ],
+  },
+};
+
+export const WithStackAggregateTotals: Story = {
+  args: {
+    dataset: complexDataSet.slice(0, 3),
+    dimensions: [{ accessor: 'name' }],
+    measures: [
+      {
+        accessor: 'users',
+        stackId: 'A',
+        label: 'Users',
+      },
+      {
+        accessor: 'sessions',
+        stackId: 'A',
+        label: 'Active Sessions',
+      },
+    ],
+    chartConfig: {
+      showStackAggregateTotals: true,
+    },
+  },
+};
+
+export const WithCustomTooltipTotal: Story = {
+  args: {
+    dataset: complexDataSet.slice(0, 5),
+    dimensions: [{ accessor: 'name' }],
+    measures: [
+      {
+        accessor: 'users',
+        stackId: 'A',
+        label: 'Users',
+      },
+      {
+        accessor: 'sessions',
+        stackId: 'A',
+        label: 'Active Sessions',
+      },
+      {
+        accessor: 'volume',
+        label: 'Vol.',
+      },
+    ],
+    chartConfig: {
+      showStackAggregateTotals: true,
+    },
+    tooltipConfig: {
+      content: <CustomTooltipContent />,
+    },
   },
 };
 

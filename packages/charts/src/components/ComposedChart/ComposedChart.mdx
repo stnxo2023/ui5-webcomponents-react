@@ -2,6 +2,8 @@ import { ControlsWithNote, DocsHeader, Footer } from '@sb/components';
 import { Canvas, Meta } from '@storybook/addon-docs/blocks';
 import TooltipStory from '../../resources/TooltipConfig.mdx';
 import LegendStory from '../../resources/LegendConfig.mdx';
+import StackAggregateTotalsStory from '../../resources/StackAggregateTotals.mdx';
+import CustomTooltipTotalStory from '../../resources/CustomTooltipTotal.mdx';
 import * as ComponentStories from './ComposedChart.stories';
 
 <Meta of={ComponentStories} />
@@ -63,6 +65,16 @@ You can set a reference line to any value by using the `referenceLine` `chartCon
 ### Loading Placeholder
 
 <Canvas of={ComponentStories.LoadingPlaceholder} />
+
+<StackAggregateTotalsStory
+  of={ComponentStories.WithStackAggregateTotals}
+  description={<>You can display a total label at the top of each stacked bar group by setting <code>chartConfig.showStackAggregateTotals</code> to <code>true</code>. The tooltip includes the total automatically when all measures are stacked bars within a single stack group. If non-bar measures (e.g. lines or areas) are present, only the bar labels are shown.</>}
+/>
+
+<CustomTooltipTotalStory
+  of={ComponentStories.WithCustomTooltipTotal}
+  description={<>When non-bar measures (e.g. lines or areas) are present alongside stacked bars, the built-in tooltip total is not available. You can provide a custom tooltip via the <code>tooltipConfig.content</code> prop to display a total for the stacked bar measures.</>}
+/>
 
 <TooltipStory of={ComponentStories.WithCustomTooltipConfig} />
 
