@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/UI5/webcomponents-react/compare/v2.20.1...v2.21.0) (2026-04-07)
+
+### Features
+
+- update to UI5 Web Components 2.21.0 ([#8444](https://github.com/UI5/webcomponents-react/issues/8444)) ([09447b8](https://github.com/UI5/webcomponents-react/commit/09447b817e198db2f95b8b41353f61fad0b30b6d))
+
 ## [2.20.1](https://github.com/UI5/webcomponents-react/compare/v2.20.0...v2.20.1) (2026-03-18)
 
 **Note:** Version bump only for package @ui5/webcomponents-ai-react

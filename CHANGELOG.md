@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/UI5/webcomponents-react/compare/v2.20.1...v2.21.0) (2026-04-07)
+
+### Bug Fixes
+
+- add type definition for `@ui5/webcomponents-react/styles.css` ([#8417](https://github.com/UI5/webcomponents-react/issues/8417)) ([d628157](https://github.com/UI5/webcomponents-react/commit/d628157f6d44044c7cffb97bf226ac8215696099))
+- **AnalyticalTable:** apply `hAlign` correctly for grouped rows ([#8401](https://github.com/UI5/webcomponents-react/issues/8401)) ([cefe69d](https://github.com/UI5/webcomponents-react/commit/cefe69d2b711779a79464321957a042930b90bb1)), closes [#8397](https://github.com/UI5/webcomponents-react/issues/8397)
+- **AnalyticalTable:** prevent empty table body flash on first render ([#8375](https://github.com/UI5/webcomponents-react/issues/8375)) ([a4fb335](https://github.com/UI5/webcomponents-react/commit/a4fb3353758a2fe86e82b46b33ce8b82829a01ff))
+- **FilterBar:** fix item distribution in `hideToolbar` layout ([#8382](https://github.com/UI5/webcomponents-react/issues/8382)) ([b0217ad](https://github.com/UI5/webcomponents-react/commit/b0217add75b186bec117068137a6a45f15cdc9fb)), closes [#8381](https://github.com/UI5/webcomponents-react/issues/8381)
+- **ObjectPage:** prevent section titles from overflowing header content ([#8370](https://github.com/UI5/webcomponents-react/issues/8370)) ([85f66b4](https://github.com/UI5/webcomponents-react/commit/85f66b4d60ed111283ddcf419d6f08169c8faf19)), closes [#8369](https://github.com/UI5/webcomponents-react/issues/8369)
+
+### Features
+
+- **AnalyticalTable - useF2CellEdit:** update to follow latest a11y specs ([#8307](https://github.com/UI5/webcomponents-react/issues/8307)) ([a7a35c8](https://github.com/UI5/webcomponents-react/commit/a7a35c84c970ae1ce7ed35ca69ae723db682a543))
+- **AnalyticalTable:** improve dynamic column width scaling performance ([#8394](https://github.com/UI5/webcomponents-react/issues/8394)) ([819d3e2](https://github.com/UI5/webcomponents-react/commit/819d3e2ddf54f4e4454d7f9436deb2a2d4048bd4))
+- **AnalyticalTable:** optimize column resize performance and handling ([#8392](https://github.com/UI5/webcomponents-react/issues/8392)) ([033be84](https://github.com/UI5/webcomponents-react/commit/033be84414ee72061b86433e216a3f23fab9ebcc)), closes [#2665](https://github.com/UI5/webcomponents-react/issues/2665)
+- **Bar/Column/ComposedChart:** add stack aggregate total labels and tooltip support ([#8302](https://github.com/UI5/webcomponents-react/issues/8302)) ([3e52380](https://github.com/UI5/webcomponents-react/commit/3e5238086e20b40ba3447a85a0ee1864bc958283)), closes [#3420](https://github.com/UI5/webcomponents-react/issues/3420)
+- introduce UI5 Web Components for React MCP Server ([#8418](https://github.com/UI5/webcomponents-react/issues/8418)) ([b5bd887](https://github.com/UI5/webcomponents-react/commit/b5bd88740090468832dccb89abdfa4cb0e21c3df)), closes [#7925](https://github.com/UI5/webcomponents-react/issues/7925)
+- update to UI5 Web Components 2.21.0 ([#8444](https://github.com/UI5/webcomponents-react/issues/8444)) ([09447b8](https://github.com/UI5/webcomponents-react/commit/09447b817e198db2f95b8b41353f61fad0b30b6d))
+
 ## [2.20.1](https://github.com/UI5/webcomponents-react/compare/v2.20.0...v2.20.1) (2026-03-18)
 
 ### Bug Fixes
