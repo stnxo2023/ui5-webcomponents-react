@@ -1,0 +1,1 @@
+import{n as e,o as t}from"./chunk-zsgVPwQN.js";import{t as n}from"./react-C184PLS3.js";import{r}from"./withWebComponent-DiWQVn_s.js";import{t as i}from"./src-DxZ0_C0B.js";var a,o,s=e((()=>{i(),a=t(n(),1),o=e=>(0,a.useCallback)((t,n)=>{typeof e==`function`&&e(r(n,{payload:t?.activePayload?.[0]?.payload,activePayloads:t?.activePayload}))},[e])}));export{o as n,s as t};
