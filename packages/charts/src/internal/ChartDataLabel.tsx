@@ -1,6 +1,7 @@
 import { ThemingParameters } from '@ui5/webcomponents-react-base/ThemingParameters';
 import { createElement } from 'react';
 import { Label } from 'recharts';
+import type { LabelProps } from 'recharts';
 import type { IChartMeasure } from '../interfaces/IChartMeasure.js';
 import { getTextWidth } from '../internal/Utils.js';
 
@@ -8,14 +9,14 @@ interface CustomDataLabelProps {
   config: IChartMeasure;
   viewBox?: any;
   chartType: 'bar' | 'column' | 'line' | 'radar' | 'pie' | 'area';
-  position?: string;
+  position?: LabelProps['position'];
   value?: any;
   children?: any;
   isBigDataSet?: boolean;
 }
 
 export const ChartDataLabel = (props: CustomDataLabelProps) => {
-  const { config, chartType, viewBox, isBigDataSet } = props;
+  const { config, chartType, viewBox, isBigDataSet, ...labelProps } = props;
   const hideLabel = config.hideDataLabel !== false && (isBigDataSet || config.hideDataLabel || props.value == null);
 
   if (hideLabel) {
@@ -42,13 +43,6 @@ export const ChartDataLabel = (props: CustomDataLabelProps) => {
   }
 
   return (
-    <Label
-      viewBox={viewBox}
-      {...(props as any)}
-      fill={fill}
-      stroke={'none'}
-      content={undefined}
-      value={formattedLabel}
-    />
+    <Label viewBox={viewBox} {...labelProps} fill={fill} stroke={'none'} content={undefined} value={formattedLabel} />
   );
 };

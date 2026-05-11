@@ -18,7 +18,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import type { YAxisProps } from 'recharts';
+import type { LabelProps, YAxisProps } from 'recharts';
 import { getValueByDataKey } from 'recharts/lib/util/ChartUtils.js';
 import { useCancelAnimationFallback } from '../../hooks/useCancelAnimationFallback.js';
 import { useChartMargin } from '../../hooks/useChartMargin.js';
@@ -74,6 +74,12 @@ interface DimensionConfig extends IChartDimension {
 }
 
 export interface ColumnChartProps extends IChartBaseProps {
+  /**
+   * Alignment of the labels of the data points.
+   *
+   * @default 'insideTop'
+   */
+  alignLabels?: LabelProps['position'];
   /**
    * An array of config objects. Each object will define one dimension of the chart.
    *
@@ -148,6 +154,7 @@ const ColumnChart = forwardRef<HTMLDivElement, ColumnChartProps>((props, ref) =>
     ChartPlaceholder,
     syncId,
     children,
+    alignLabels = 'insideTop',
     ...rest
   } = props;
 
@@ -339,7 +346,7 @@ const ColumnChart = forwardRef<HTMLDivElement, ColumnChartProps>((props, ref) =>
                 <LabelList
                   data={dataset}
                   valueAccessor={valueAccessor(element.accessor)}
-                  content={<ChartDataLabel config={element} chartType="column" position={'insideTop'} />}
+                  content={<ChartDataLabel config={element} chartType="column" position={alignLabels} />}
                 />
                 {chartConfig.showStackAggregateTotals &&
                   element.stackId &&
