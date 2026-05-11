@@ -60,6 +60,12 @@ export const WithCustomColor: Story = {
   },
 };
 
+export const WithAccessibilityLayer: Story = {
+  args: {
+    chartConfig: { accessibilityLayer: true },
+  },
+};
+
 export const LoadingPlaceholder: Story = {
   args: {
     dataset: [],
