@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.22.0](https://github.com/UI5/webcomponents-react/compare/v2.21.3...v2.22.0) (2026-05-12)
+
+### Bug Fixes
+
+- **charts:** broaden peer dependency ranges ([#8525](https://github.com/UI5/webcomponents-react/issues/8525)) ([d71742c](https://github.com/UI5/webcomponents-react/commit/d71742c17a679a564310f5796754dcf05df9a660))
+- **charts:** eliminate debounce flicker in useObserveXAxisHeights ([2fde376](https://github.com/UI5/webcomponents-react/commit/2fde3764fe587b9613529a3432e28f3d54828e38))
+- **charts:** eliminate debounce flicker in useObserveXAxisHeights ([#8549](https://github.com/UI5/webcomponents-react/issues/8549)) ([61301b1](https://github.com/UI5/webcomponents-react/commit/61301b1e40137f47b3ba222f4b66ad0c2cd3de0c))
+- **charts:** use correct color for focus outline ([#8530](https://github.com/UI5/webcomponents-react/issues/8530)) ([8f9b7f6](https://github.com/UI5/webcomponents-react/commit/8f9b7f6a056b57bb3f9b0e3550fc760c369fece4)), closes [#7302](https://github.com/UI5/webcomponents-react/issues/7302)
+- **Pie- & DonutChart:** improve label and legend text contrast ([#8521](https://github.com/UI5/webcomponents-react/issues/8521)) ([d6a3a8f](https://github.com/UI5/webcomponents-react/commit/d6a3a8fa764d6ed71a76f81ebdbf925d2b4484d7)), closes [#8395](https://github.com/UI5/webcomponents-react/issues/8395)
+
+### Features
+
+- **ColumnChart:** add alignLabels property ([#8534](https://github.com/UI5/webcomponents-react/issues/8534)) ([2ac663e](https://github.com/UI5/webcomponents-react/commit/2ac663efcf1f43659e9cfbfe5a1a34462eeeb46b)), closes [#3421](https://github.com/UI5/webcomponents-react/issues/3421)
+- **Pie- & DonutChart:** enable section focus & arrow key nav ([#8514](https://github.com/UI5/webcomponents-react/issues/8514)) ([ae69404](https://github.com/UI5/webcomponents-react/commit/ae69404c855d0c94ebc378b77528a237bacb6578)), closes [#7609](https://github.com/UI5/webcomponents-react/issues/7609)
+- **ScatterChart:** enable arrow key nav via custom `accessibilityLayer` ([#8566](https://github.com/UI5/webcomponents-react/issues/8566)) ([0f54a6b](https://github.com/UI5/webcomponents-react/commit/0f54a6b0f692effa02c6b7b6f52dded5d20c92e9)), closes [#7484](https://github.com/UI5/webcomponents-react/issues/7484)
+
 ## [2.21.3](https://github.com/UI5/webcomponents-react/compare/v2.21.2...v2.21.3) (2026-04-09)
 
 **Note:** Version bump only for package @ui5/webcomponents-react-charts

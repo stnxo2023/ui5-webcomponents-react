@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.22.0](https://github.com/UI5/webcomponents-react/compare/v2.21.3...v2.22.0) (2026-05-12)
+
+### Bug Fixes
+
+- **AnalyticalTable - useManualRowSelect:** allow custom `manualRowSelectedKey`, improve performance & docs ([#8461](https://github.com/UI5/webcomponents-react/issues/8461)) ([6b61d8c](https://github.com/UI5/webcomponents-react/commit/6b61d8c73c845ed2a91fd759437ac01619199189)), closes [#3139](https://github.com/UI5/webcomponents-react/issues/3139)
+- **AnalyticalTable:** fix End/Home nav and Shift+Arrow resize ([#8472](https://github.com/UI5/webcomponents-react/issues/8472)) ([0f8f63e](https://github.com/UI5/webcomponents-react/commit/0f8f63ea5402cbeee7f6437b37fc24ddf7922205))
+- **AnalyticalTable:** fix pop-in a11y and cell-data ([#8535](https://github.com/UI5/webcomponents-react/issues/8535)) ([69aab1c](https://github.com/UI5/webcomponents-react/commit/69aab1c65dfc19f2836e53e33bdb69893e5fa399)), closes [#7410](https://github.com/UI5/webcomponents-react/issues/7410)
+- **AnalyticalTable:** recalc column widths after columns change with `retainColumnWidth` ([#8487](https://github.com/UI5/webcomponents-react/issues/8487)) ([5027b89](https://github.com/UI5/webcomponents-react/commit/5027b89bec9deb8a58a2281d41c037e2492cd08a))
+- **deps:** update dependency @tanstack/react-virtual to v3.13.24 ([#8509](https://github.com/UI5/webcomponents-react/issues/8509)) ([f86d0b8](https://github.com/UI5/webcomponents-react/commit/f86d0b85e614359ece396f250a8aa62729df6ef6))
+- **ObjectPage:** isolate stacking context in content ([#8564](https://github.com/UI5/webcomponents-react/issues/8564)) ([85834ac](https://github.com/UI5/webcomponents-react/commit/85834aca074d045af38da9d37a9428471769632b))
+
+### Features
+
+- **AnalyticalTable:** add `onRowContextMenu` callback ([#8522](https://github.com/UI5/webcomponents-react/issues/8522)) ([eb914ef](https://github.com/UI5/webcomponents-react/commit/eb914ef60b67b926b36a0743e8cd147c6312a6ab)), closes [#5594](https://github.com/UI5/webcomponents-react/issues/5594)
+- **AnalyticalTable:** remove `react-table` v7 dependency & vendor its code ([#8558](https://github.com/UI5/webcomponents-react/issues/8558)) ([b217f47](https://github.com/UI5/webcomponents-react/commit/b217f476c26fe54efef0655fb0c2d8c25e195fcb)), closes [#6767](https://github.com/UI5/webcomponents-react/issues/6767)
+- update to UI5 Web Components 2.22.0 ([#8580](https://github.com/UI5/webcomponents-react/issues/8580)) ([4ed9ea0](https://github.com/UI5/webcomponents-react/commit/4ed9ea0d2b62b70bedce130db2fce951cd538aa2))
+
 ## [2.21.3](https://github.com/UI5/webcomponents-react/compare/v2.21.2...v2.21.3) (2026-04-09)
 
 **Note:** Version bump only for package @ui5/webcomponents-react

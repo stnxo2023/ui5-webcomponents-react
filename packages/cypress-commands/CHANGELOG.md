@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.22.0](https://github.com/UI5/webcomponents-react/compare/v2.21.3...v2.22.0) (2026-05-12)
+
+### Features
+
+- update to UI5 Web Components 2.22.0 ([#8580](https://github.com/UI5/webcomponents-react/issues/8580)) ([4ed9ea0](https://github.com/UI5/webcomponents-react/commit/4ed9ea0d2b62b70bedce130db2fce951cd538aa2))
+
 ## [2.21.3](https://github.com/UI5/webcomponents-react/compare/v2.21.2...v2.21.3) (2026-04-09)
 
 **Note:** Version bump only for package @ui5/webcomponents-cypress-commands
