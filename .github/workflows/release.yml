@@ -36,14 +36,6 @@ jobs:
     with:
       reportCoverage: false
 
-  check-charts-compat-peer-deps:
-    if: ${{ github.event.inputs.publish_only != 'true' }}
-    runs-on: ubuntu-latest
-    environment: charts-peer-deps-approval
-    steps:
-      - name: No-op
-        run: echo "Did you update the peer dependencies of the charts and compat package?"
-
   release-dryrun:
     if: ${{ github.event.inputs.publish_only != 'true' }}
     runs-on: ubuntu-latest
@@ -85,8 +77,8 @@ jobs:
             --allow-branch ${{ github.ref_name }}
 
   build-and-release:
-    if: ${{ !cancelled() && (github.event.inputs.publish_only == 'true' || (needs.test.result == 'success' && needs.release-dryrun.result == 'success' && needs.check-charts-compat-peer-deps.result == 'success')) }}
-    needs: ['test', 'release-dryrun', 'check-charts-compat-peer-deps']
+    if: ${{ !cancelled() && (github.event.inputs.publish_only == 'true' || (needs.test.result == 'success' && needs.release-dryrun.result == 'success')) }}
+    needs: ['test', 'release-dryrun']
     runs-on: ubuntu-latest
     environment:
       name: 'npm'
