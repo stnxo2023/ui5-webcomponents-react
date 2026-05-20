@@ -56,6 +56,10 @@ jobs:
       - name: Install
         run: yarn install --immutable
 
+      - name: Override react-is for charts
+        if: ${{ matrix.react == '18' }}
+        run: jq '.resolutions["react-is"] = "18"' package.json > tmp.json && mv tmp.json package.json
+
       - name: Install React 18
         if: ${{ matrix.react == '18' }}
         run: |
@@ -88,7 +92,6 @@ jobs:
       matrix:
         spec:
           - base
-          - charts
           - cypress-commands
           - main/src/components
           - main/src/webComponents
@@ -107,10 +110,6 @@ jobs:
 
       - name: Install
         run: yarn install --immutable
-
-      - name: Override react-is for charts
-        if: ${{ matrix.react == '18' && matrix.spec == 'charts' }}
-        run: jq '.resolutions["react-is"] = "18"' package.json > tmp.json && mv tmp.json package.json
 
       - name: Install 18
         if: ${{ matrix.react == '18' }}
@@ -154,4 +153,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           parallel-finished: true
-          carryforward: 'base,charts,cypress-commands,main/src/components,main/src/internal,playwright'
+          carryforward: 'base,cypress-commands,main/src/components,main/src/internal,playwright'
