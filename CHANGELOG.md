@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.22.2](https://github.com/UI5/webcomponents-react/compare/v2.22.1...v2.22.2) (2026-05-28)
+
+### Bug Fixes
+
+- **AnalyticalTable:** prevent subcomponent re-render loop at browser zoom ([#8645](https://github.com/UI5/webcomponents-react/issues/8645)) ([46ffd70](https://github.com/UI5/webcomponents-react/commit/46ffd70980c33bd4dca654347dc2e979dfff5efd)), closes [#8641](https://github.com/UI5/webcomponents-react/issues/8641)
+- **AnalyticalTable:** sync scroll offset after filtering ([#8631](https://github.com/UI5/webcomponents-react/issues/8631)) ([9adb404](https://github.com/UI5/webcomponents-react/commit/9adb404d7451a62ba7925a2e47cd1d34ed072eb5))
+- **cli:** remove deprecated `patch-compat-table` command ([#8638](https://github.com/UI5/webcomponents-react/issues/8638)) ([4218131](https://github.com/UI5/webcomponents-react/commit/4218131745476cd6ba88525f882c7e79a4bf08ca))
+- **deps:** update dependency @tanstack/react-virtual to v3.13.25 ([#8625](https://github.com/UI5/webcomponents-react/issues/8625)) ([ee516ef](https://github.com/UI5/webcomponents-react/commit/ee516efb141998631b7af3814341b1bf19600a85))
+- **FilterBar:** fix header overflow behavior & add "Go" button aria description ([#8643](https://github.com/UI5/webcomponents-react/issues/8643)) ([42c5d86](https://github.com/UI5/webcomponents-react/commit/42c5d86cddf950c820914b68395aa513df093c97))
+
 ## [2.22.1](https://github.com/UI5/webcomponents-react/compare/v2.22.0...v2.22.1) (2026-05-19)
 
 ### Bug Fixes
