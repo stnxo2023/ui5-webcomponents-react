@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.23.0](https://github.com/stnxo2023/ui5-webcomponents-react/compare/v2.22.2...v2.23.0) (2026-06-08)
+
+
+### Features
+
+* **AnalyticalTable:** optimize column resize performance and handling ([#8392](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8392)) ([033be84](https://github.com/stnxo2023/ui5-webcomponents-react/commit/033be84414ee72061b86433e216a3f23fab9ebcc))
+* improve React Compiler compatibility ([#8185](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8185)) ([b1ca145](https://github.com/stnxo2023/ui5-webcomponents-react/commit/b1ca145581c8de48345fffd380b3c629e914cb22))
+
+
+### Bug Fixes
+
+* **cli:** remove deprecated `patch-compat-table` command ([#8638](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8638)) ([4218131](https://github.com/stnxo2023/ui5-webcomponents-react/commit/4218131745476cd6ba88525f882c7e79a4bf08ca))
+* **deps:** update dependency dedent to v1.7.1 ([#8042](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8042)) ([03df64b](https://github.com/stnxo2023/ui5-webcomponents-react/commit/03df64bf8ceaab2bd5980b07e99c15f7c0314a5a))
+* **deps:** update dependency dedent to v1.7.2 ([#8271](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8271)) ([3e8441e](https://github.com/stnxo2023/ui5-webcomponents-react/commit/3e8441e1844e3e8ab840add1f189cb665b37f757))
+
 ## [2.22.2](https://github.com/UI5/webcomponents-react/compare/v2.22.1...v2.22.2) (2026-05-28)
 
 ### Bug Fixes
