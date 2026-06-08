@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.23.0](https://github.com/stnxo2023/ui5-webcomponents-react/compare/v2.22.2...v2.23.0) (2026-06-08)
+
+
+### Features
+
+* **AnalyticalTable:** optimize column resize performance and handling ([#8392](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8392)) ([033be84](https://github.com/stnxo2023/ui5-webcomponents-react/commit/033be84414ee72061b86433e216a3f23fab9ebcc))
+* improve React Compiler compatibility ([#8185](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8185)) ([b1ca145](https://github.com/stnxo2023/ui5-webcomponents-react/commit/b1ca145581c8de48345fffd380b3c629e914cb22))
+* update to UI5 Web Components 2.20.0 ([#8285](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8285)) ([e9fd5d9](https://github.com/stnxo2023/ui5-webcomponents-react/commit/e9fd5d96f5ccacbea28d69005136b275ab62891f)), closes [#8196](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8196)
+* update to UI5 Web Components 2.21.0 ([#8444](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8444)) ([09447b8](https://github.com/stnxo2023/ui5-webcomponents-react/commit/09447b817e198db2f95b8b41353f61fad0b30b6d))
+* update to UI5 Web Components 2.22.0 ([#8580](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8580)) ([4ed9ea0](https://github.com/stnxo2023/ui5-webcomponents-react/commit/4ed9ea0d2b62b70bedce130db2fce951cd538aa2))
+* update to UI5 Web Components v2.18.0 ([#8075](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8075)) ([e01d461](https://github.com/stnxo2023/ui5-webcomponents-react/commit/e01d461851db0bfe8b550cdd667565402d902197))
+* update to UI5 Web Components v2.19.0 ([#8180](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8180)) ([7634a40](https://github.com/stnxo2023/ui5-webcomponents-react/commit/7634a4079907314c1e9bb408b4fed1d95e709410))
+
+
+### Bug Fixes
+
+* **Toolbar - compat:** support React version &gt;= 19.2 & StrictMode ([#8073](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8073)) ([763e091](https://github.com/stnxo2023/ui5-webcomponents-react/commit/763e0914218f7dfc586f8b250219aac75f4241c2)), closes [#8063](https://github.com/stnxo2023/ui5-webcomponents-react/issues/8063)
+
 ## [2.22.2](https://github.com/UI5/webcomponents-react/compare/v2.22.1...v2.22.2) (2026-05-28)
 
 **Note:** Version bump only for package @ui5/webcomponents-react-compat
