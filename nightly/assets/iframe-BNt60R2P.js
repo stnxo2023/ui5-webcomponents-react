@@ -1,0 +1,1 @@
+import{t as e}from"./iframe-BhoiKIW2.js";e();
